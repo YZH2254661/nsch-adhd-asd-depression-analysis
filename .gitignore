@@ -1,0 +1,21 @@
+# Local R runtime and package library
+tools/R/
+tools/R-library/
+
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+
+# Official and processed respondent-level data
+data/raw/*
+!data/raw/README.md
+!data/raw/download_manifest.csv
+data/processed/
+
+# Generated analysis outputs
+outputs/
+
+# Temporary files
+tmp/
+*.tmp
